@@ -1,0 +1,47 @@
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: sticky;
+}
+
+.nav{
+    width: 90%;
+    max-height: 86px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    padding: 0px;
+    border-radius: 999px;
+    margin-top: 1rem;
+}
+
+.nav .link{
+    all:unset;
+    font-family: Urbanist;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+    padding: 0px;
+    cursor: pointer;
+}
+
+
+.nav p {
+    font-family: Urbanist;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+}
+
+.nav p span{
+    background-color: var(--secondary-color);
+    padding: 5px 15px;
+    border-radius: 50%;
+}
