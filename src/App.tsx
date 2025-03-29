@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
-import Hero from './components/HeroPage/Hero'
+import Home from './components/Home/Home'
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Hero />} />
+        <Route path='/' element={<Home />} />
       </Routes>
     </BrowserRouter>
   )

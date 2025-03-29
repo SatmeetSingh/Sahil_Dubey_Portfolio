@@ -6,11 +6,10 @@
   --secondary-color:#FD3A3A;
   --background-color:#000000;
   --text-color: #344054;
-  --blur-color: #FFFFFF80;
-
-  
+  --blur-color: #FFFFFF80;  
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Playfair Display', serif;
+  --secondary-text-color:#171717;
 }
 
 
