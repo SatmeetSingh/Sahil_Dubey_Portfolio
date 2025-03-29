@@ -8,7 +8,7 @@ export default function Navbar() {
             <Link to='/' className={styles.link}>Home</Link>
             <Link to='/' className={styles.link}>About</Link>
             <Link to='/' className={styles.link}>Experience</Link>
-            <p> <span>S</span> Dubey</p>
+            <p> <span>S</span> DUBEY</p>
             <Link to='/' className={styles.link}>project</Link>
             <Link to='/' className={styles.link}>Certificate</Link>
             <Link to='/' className={styles.link}>Contact</Link>

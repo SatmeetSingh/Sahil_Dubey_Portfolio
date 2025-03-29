@@ -11,11 +11,11 @@
     align-items: center;
     justify-content: center;
     gap: 0.25rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .intro p{
-    font-family: Urbanist;
+    font-family: var(--font-secondary);
     font-weight: 600;
     font-size: 1.25rem;
     line-height: 100%;
@@ -27,7 +27,7 @@
 
 .intro h4 {
     all:unset;
-    font-family: Urbanist;
+    font-family: var(--font-secondary);
     font-weight: 600;
     font-size: 4rem;
     line-height: 100%;
@@ -53,16 +53,16 @@
 
 .info p {
     color: var(--text-color);
-    font-family: Urbanist;
+    font-family: var(--font-primary);
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 100%;
     letter-spacing: -1.5%;
 }
 
 .rating span {
-    font-family: Urbanist;
-    font-weight: 700;
+    font-family: var(--font-primary);
+    font-weight: 600;
     font-size: 3rem;
     line-height: 100%;
     letter-spacing: -1.5%;
@@ -70,11 +70,11 @@
 }
 
 .rating p {
-    font-family: Lufga;
+    font-family: var(--font-primary);
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 100%;
-    letter-spacing: -1.5%;
+    letter-spacing: -1%;
     text-align: center;
 }
 
