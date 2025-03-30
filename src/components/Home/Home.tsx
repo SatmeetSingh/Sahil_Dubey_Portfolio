@@ -1,4 +1,5 @@
 import AboutUs from "../AboutUs/AboutUs";
+import Experience from "../Experience/Experience";
 import Hero from "../HeroPage/Hero";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
         <Hero />
         <AboutUs />
+        <Experience />
     </div>
   )
 }

@@ -1,0 +1,32 @@
+{
+    "experiences": [
+      {
+        "company": "Alpha NET Private Limited",
+        "location": "Mohali, Punjab",
+        "period": "Aug 2024- Present",
+        "position": "Site Reliability(AWS & DevOps)",
+        "description": "As a Senior AWS SRE, I specialize in maintaining and optimizing scalable, resilient, and secure cloud infrastructure. With extensive experience in AWS architecture, I ensure high availability, reliability, and"
+      },
+      {
+        "company": "Techweek Infotech LLC",
+        "location": "Mohali, Punjab",
+        "period": "Jan 2022- Oct 2024",
+        "position": "Head IT Infra, DevOps",
+        "description": "Develop and implement the company's technology strategy aligned with business goals. Provide leadership and guidance in technology planning, innovation, and development."
+      },
+      {
+        "company": "Pentagon Infosec",
+        "location": "Chandigarh Punjab",
+        "period": "June 2021 - July 2024",
+        "position": "Chief Information Security Officer",
+        "description": "As a Head of Information Security and Compliance, am tasked with the critical responsibility of ensuring an organization's digital assets are protected and that it adheres to relevant laws and regulations."
+      },
+      {
+        "company": "Congneesole",
+        "location": "Mohali, Punjab",
+        "period": "Jan 2020 - Oct 2022",
+        "position": "Head IT - DevOps & Infosec",
+        "description": "Work closely with Application Architects, Engineers, Product Managers and System Administrators to meet their service automation and project needs."
+      }
+    ]
+  }
