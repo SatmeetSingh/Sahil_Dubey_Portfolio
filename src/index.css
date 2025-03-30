@@ -3,14 +3,19 @@
 
 :root {
   --primary-color : #FFFFFF;
+  --primary-text-color:#F5F5F5;
   --secondary-color:#FD3A3A;
   --background-color:#000000;
+  --star-color:#F7B706;
+  --secondary-background-color:#0E0E0E;
   --text-color: #344054;
-  --blur-color: #FFFFFF80;
-
-  
+  --secondary-text-color:#98A2B3;
+  --card-color:#FD3A3A;
+  --blur-color: #FFFFFF80;  
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Playfair Display', serif;
+  --secondary-text-color:#171717;
+  --border-color:#1D2939;
 }
 
 

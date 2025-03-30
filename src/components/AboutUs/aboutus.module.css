@@ -1,0 +1,148 @@
+.aboutus {
+    background-color: var(--secondary-background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-family: var(--font-primary);
+    font-weight: 700;
+    font-size: 12.5rem;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+    text-align: center;
+    color: var(--primary-color);
+    opacity: 0.102;
+}
+
+.lowersection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 85%;
+    align-items: stretch;
+}
+
+.lowersection .card{
+    flex: 3;
+    width: 100%;
+    background-color: var(--card-color);
+    border: 1px solid red;
+    border-radius: 60px 60px 0px 0px;
+}
+
+.lowersection .box {
+    width: 100%;
+    height: 100%;
+    background-color: var(--card-color);
+    border: 1px solid red;
+    border-radius: 60px 60px 0px 0px;
+}
+
+.lowersection .about {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    gap: 1rem;
+}
+
+.lowersection .about h2 {
+    all:unset;
+    font-family: var(--font-primary);
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+    color:var(--primary-color) ;
+}
+
+.about h2 span {
+    color: var(--secondary-color);
+}
+
+.about p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 117%;
+    letter-spacing: -1.5%;
+    font-family: var(--font-primary);
+    color: var(--primary-color);
+}
+
+.achive {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px
+    
+}
+
+.achive .proj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.achive .proj span {
+    all:unset;
+    font-family: var(--font-primary);
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+    color: var(--primary-text-color);
+}
+
+.proj p {
+    all:unset;
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+    color: var(--primary-color);
+}
+
+.skill {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+
+.skill h2 {
+    all:unset;
+    font-family: var(--font-primary);
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+    text-align: center;
+}
+
+.services{
+    width: 100%;
+}
+
+.services .service {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service p {
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+}
