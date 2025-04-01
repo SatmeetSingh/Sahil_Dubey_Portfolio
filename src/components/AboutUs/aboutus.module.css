@@ -29,7 +29,7 @@
     flex: 3;
     width: 100%;
     background-color: var(--card-color);
-    border: 1px solid red;
+    /* border: 1px solid #4D55CC; */
     border-radius: 60px 60px 0px 0px;
 }
 
@@ -37,7 +37,7 @@
     width: 100%;
     height: 100%;
     background-color: var(--card-color);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 60px 60px 0px 0px;
 }
 
@@ -54,7 +54,7 @@
     all:unset;
     font-family: var(--font-primary);
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 100%;
     letter-spacing: -1.5%;
     color:var(--primary-color) ;
@@ -66,7 +66,7 @@
 
 .about p {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 117%;
     letter-spacing: -1.5%;
     font-family: var(--font-primary);
@@ -91,7 +91,7 @@
 .achive .proj span {
     all:unset;
     font-family: var(--font-primary);
-    font-weight: 700;
+    font-weight: 600;
     font-size: 2.25rem;
     line-height: 100%;
     letter-spacing: -1.5%;
@@ -102,7 +102,7 @@
     all:unset;
     font-family: var(--font-primary);
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 100%;
     letter-spacing: -1.5%;
     color: var(--primary-color);
@@ -121,8 +121,8 @@
 .skill h2 {
     all:unset;
     font-family: var(--font-primary);
-    font-weight: 800;
-    font-size: 3rem;
+    font-weight: 500;
+    font-size: 2rem;
     line-height: 100%;
     letter-spacing: -1.5%;
     text-align: center;
@@ -142,7 +142,7 @@
 .service p {
     font-family: var(--font-primary);
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 100%;
     letter-spacing: -1.5%;
 }

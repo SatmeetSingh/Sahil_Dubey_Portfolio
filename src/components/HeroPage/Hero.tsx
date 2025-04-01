@@ -17,11 +17,11 @@ export default function Hero() {
         </div>
         <div className={styles.rating}>
           <div>
-            <FaStar size={32} color="red"/>
-            <FaStar size={32} color="red"/>
-            <FaStar size={32} color="red"/>
-            <FaStar size={32} color="red"/>
-            <FaStar size={32} color="red"/>
+            <FaStar size={32} color="#F7B706"/>
+            <FaStar size={32} color="#F7B706"/>
+            <FaStar size={32} color="#F7B706"/>
+            <FaStar size={32} color="#F7B706"/>
+            <FaStar size={32} color="#F7B706"/>
           </div>
           <span>15 Years</span>
           <p>Experince</p>
