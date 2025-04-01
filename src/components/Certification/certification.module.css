@@ -1,0 +1,23 @@
+/* Add this to card.module.css or create a new CSS module */
+.container{
+  display: flex;
+  flex-direction: column;
+  /* background-color: black; */
+}.intro {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  /* color: var(--text-color); */
+}
+
+.intro span {
+  color: var(--card-color);
+}
+.certificationsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
