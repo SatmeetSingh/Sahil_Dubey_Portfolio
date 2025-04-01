@@ -4,7 +4,14 @@ import styles from "./aboutus.module.css";
 export default function AboutUs() {
   return (
     <div className={styles.aboutus}>
-      <div className={styles.heading}>AWS EXPERT</div>
+      <div className={styles.heading}>AWS EXPERT
+        <div className={styles.aurora}>
+        <div className={styles.auroraItem}></div>
+        <div className={styles.auroraItem}></div>
+        <div className={styles.auroraItem}></div>
+        <div className={styles.auroraItem}></div>
+    </div>
+      </div>
       <div className={styles.lowersection}>
         <div className={styles.card}>
           <div className={styles.box}></div>

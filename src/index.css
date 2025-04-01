@@ -12,10 +12,18 @@
   --secondary-text-color:#98A2B3;
   --card-color:#E72929;
   --blur-color: #FFFFFF80;  
-  --font-primary: 'Poppins', sans-serif;
-  --font-secondary: 'Playfair Display', serif;
   --secondary-text-color:#171717;
   --border-color:#1D2939;
+  --clr-1: #00c2ff;
+  --clr-2: #33ff8c;
+  --clr-3: #ffc640;
+  --clr-4: #e54cff;
+
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Playfair Display', serif;
+  --blur: 1rem;
+  
+
 }
 
 * {
