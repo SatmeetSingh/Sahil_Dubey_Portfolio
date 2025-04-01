@@ -27,14 +27,19 @@
 }
 
 .timeline {
-    width: 90%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:2.5rem;
 }
 
 .timelineItem {
     display: flex;
     align-items:flex-start;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .circle {
@@ -62,25 +67,6 @@
     justify-content: center;
     gap: 0.5rem;
 }
-.companyName {
-    all:unset;
-    font-family: var(--font-primary);
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 100%;
-    letter-spacing: -1.5%;
-    /* color: var(--text-color); */
-}
-
-.cardHeader span , .second .description {    
-    font-family: var(--font-primary);
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 100%;
-    letter-spacing: -1.5%;
-    /* color: var(--secondary-text-color); */
-}
-    
 
 .second{
     flex: 1;
@@ -89,3 +75,26 @@
     justify-content: center;
     gap: 0.5rem;
 }
+
+.companyName {
+    all:unset;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 125%;
+    letter-spacing: -1.5%;
+    /* color: var(--text-color); */
+}
+
+.cardHeader span , .second .description {    
+    all:unset;
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 125%;
+    letter-spacing: -1.5%;
+    color: var(--secondary-text-color);
+}
+    
+
+

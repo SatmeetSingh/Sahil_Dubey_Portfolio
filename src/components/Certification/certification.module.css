@@ -2,8 +2,14 @@
 .container{
   display: flex;
   flex-direction: column;
-  /* background-color: black; */
-}.intro {
+  justify-content: center;
+  align-items: center;
+  background-color: #80808012;
+  margin-top: 3rem;
+}
+
+.intro {
+  padding-top: 3rem;
   font-family: var(--font-primary);
   font-weight: 600;
   font-size: 3rem;
@@ -15,9 +21,18 @@
 .intro span {
   color: var(--card-color);
 }
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .certificationsContainer {
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
-    gap: 1.5rem;
-    padding: 1.5rem;
+    gap: 1rem;
+    padding: 1rem;
   }

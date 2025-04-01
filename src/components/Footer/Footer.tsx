@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll';
 import styles from './footer.module.css';
 
 const Footer = () => {
@@ -16,11 +17,46 @@ const Footer = () => {
         <div className={styles.footerSection}>
           <h3 className={styles.footerSubheading}>Navigation</h3>
           <ul className={styles.footerLinks}>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/services">Service</a></li>
-            <li><a href="/resume">Resume</a></li>
-            <li><a href="/projects">Project</a></li>
+            <li>
+              <Link to='home' 
+                  spy={true} 
+                  smooth={true} 
+                  offset={-50} 
+                  duration={500}  
+                  >Home</Link>
+            </li>
+            <li>
+              <Link to='about' 
+                  spy={true} 
+                  offset={-50} 
+                  smooth={true} 
+                  duration={500}  
+                  >About</Link>
+            </li>
+            <li>
+              <Link to='experience'
+                  spy={true}
+                  offset={-80} 
+                  smooth={true} 
+                  duration={500} 
+                  >Experience</Link>
+            </li>
+            <li>
+              <Link to='certificate' 
+                  spy={true}
+                  offset={-50} 
+                  smooth={true} 
+                  duration={500} 
+                  >Certificate</Link>
+            </li>
+            <li>
+              <Link to='contact' 
+                  spy={true}
+                  offset={-90}  
+                  smooth={true} 
+                  duration={500} 
+                  >Contact</Link>
+            </li>
           </ul>
         </div>
 

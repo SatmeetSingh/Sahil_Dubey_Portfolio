@@ -1,18 +1,20 @@
 .hero{
     display: flex;
     flex-direction: column;
+    position: relative;
     width: 100%;
-    height: calc(100vh - 5rem);
+    height: calc(100vh - 4rem);
     align-items: center;
     justify-content: flex-start;
 }
+
 .intro {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 0.25rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .intro p{
@@ -98,6 +100,7 @@
     background-color: var(--secondary-color);
     max-width: 970px;
     max-height: 485px;
+    /* overflow: hidden; */
 }
 .semicircle img {
     position: absolute;

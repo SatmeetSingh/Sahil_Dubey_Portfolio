@@ -38,12 +38,17 @@
   
   .footerLinks {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     padding: 0;
   }
   
   .footerLinks li,
   .footerContact li {
     margin-bottom: 0.5rem;
+    cursor: pointer;
   }
   
   .footerLinks a,

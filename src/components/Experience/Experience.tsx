@@ -7,7 +7,6 @@ export default function Experience() {
         <div className={styles.intro}>My <span>Work Experince</span></div>      
       <div className={styles.contentWrapper}>        
         <div className={styles.timeline}>
-          <div className={styles.timelineLine}></div>
           {experienceData.experiences.map((exp, index) => (
             <div key={index} className={styles.timelineItem}>
               <div className={styles.timelineDot}>

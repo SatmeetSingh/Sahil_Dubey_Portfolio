@@ -36,11 +36,11 @@ export default function AboutUs() {
               <div className={styles.service}>
                 <p>Amazon Web Services(AWS)</p>
                 <Star />
-                </div>
+              </div>
               <div className={styles.service}>
                 <p>Linux & Jenkins</p>
                 <Star />
-                </div>
+              </div>
             </div>
           </div>
         </div>
