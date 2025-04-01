@@ -1,5 +1,7 @@
 import { Link } from 'react-scroll';
 import styles from './footer.module.css';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -7,11 +9,27 @@ const Footer = () => {
       <div className={styles.footerTop}>
         <div className={styles.footerSection}>
           <h2 className={styles.footerHeading}>Lets Connect there</h2>
-          <h3 className={styles.footerSubheading}>DUBEY</h3>
+          <div className={styles.logo}>
+          <p> <span>S</span> DUBEY</p>
+          </div>
           <p className={styles.footerText}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue interdum ligula a dignissim. 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.
           </p>
+          <div className={styles.iconsContainer}>
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className={styles.icon}>
+          <FaFacebook />
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className={styles.icon}>
+          <FaTwitter />
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={styles.icon}>
+          <FaInstagram />
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.icon}>
+          <FaLinkedin />
+        </a>
+      </div>
         </div>
 
         <div className={styles.footerSection}>

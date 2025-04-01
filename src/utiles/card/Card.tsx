@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './card.module.css';
 import { SlBadge } from "react-icons/sl";
-
+import { GoLinkExternal } from "react-icons/go";
 
 interface Certification {
   id: number;
@@ -27,7 +27,9 @@ const CertificationCard: React.FC<CertificationCardProps> = ({ certification }) 
       <div className={styles.dates}>
         Certified: {certification.certifiedDate} – Valid until: {certification.validUntilDate}
       </div>
-      <div className={styles.issuer}>{certification.issuer}</div>
+      <div className={styles.issuer}>{certification.issuer}
+      <button><GoLinkExternal size={20}/></button>
+      </div>
     </div>
   );
 };
