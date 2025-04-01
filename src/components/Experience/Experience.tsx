@@ -16,8 +16,10 @@ export default function Experience() {
               <div className={styles.card}>
                 <div className={styles.cardHeader}>
                   <h3 className={styles.companyName}>{exp.company}</h3>
+                  <p>
                   <span className={styles.location}>{exp.location}</span>
                   <span className={styles.period}>{exp.period}</span>
+                  </p>
                 </div> 
                 <div className={styles.second}>
                 <h4 className={styles.companyName}>{exp.position}</h4>

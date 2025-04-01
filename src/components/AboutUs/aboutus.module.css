@@ -308,3 +308,10 @@
     line-height: 100%;
     letter-spacing: -1.5%;
 }
+
+
+@media (max-width:768px) {
+   .card{
+    display: none;
+   }
+}

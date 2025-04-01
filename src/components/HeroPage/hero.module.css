@@ -36,6 +36,7 @@
     line-height: 100%;
     letter-spacing: -1.5%;
     text-align: center;
+    transition: font-size 0.3s ease-in-out;
 }
 
 .intro h4 span {
@@ -138,6 +139,8 @@
     padding: 0.75rem 1.75rem;
     border-radius: 999px;
     color: var(--primary-color);
+    transition: font-size 0.3s ease-in-out, 
+                padding 0.3s ease-in-out;
 }
 
 .semicircle .btn span {
@@ -147,8 +150,26 @@
     line-height: 100%;
     letter-spacing: -1.5%;
     padding: 0.75rem 1.75rem 0.75rem 0rem;
+    transition: font-size 0.3s ease-in-out, 
+                padding 0.3s ease-in-out;
 }
 
+
+@media (max-width:768px) {
+    .intro h4 {
+        font-size: 3rem;
+    }
+
+    .semicircle .btn p{
+        padding: 0.5rem 1.25rem;
+        font-size: 1rem;
+    }
+    
+    .semicircle .btn span {
+        font-size: 1rem;  
+        padding: 0.5rem 1.25rem 0.5rem 0rem;
+    }
+}
 
 @media (max-height:800px) {
     .semicircle{

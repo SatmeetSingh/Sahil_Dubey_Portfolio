@@ -3,7 +3,6 @@ import { FaQuoteLeft } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 import { LuArrowUpRight } from "react-icons/lu";
 export default function Hero() {
- 
   return (
     <div className={styles.hero}>
       <div className={styles.intro}>
@@ -30,8 +29,7 @@ export default function Hero() {
       <div className={styles.semicircle}>
         <img src="./images/SahilDUbey.png" alt="Sahil" />
         <div className={styles.btn}>
-            <p>Portfolio <span><LuArrowUpRight size={20}/>
-              </span>
+            <p>Portfolio 
               </p>
             <span>Hire me</span>
         </div>

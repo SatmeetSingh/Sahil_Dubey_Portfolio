@@ -42,16 +42,18 @@
     gap: 3rem;
 }
 
+.timelineDot {
+    border: 1px dashed var(--border-color);
+    padding:0.25rem;
+    border-radius: 999px;
+}
+
 .circle {
     width: 2rem;
     height: 2rem;
     background-color: var(--card-color);
     border-radius: 50%;
-    box-sizing: content-box;
-    border: 2px solid #1D2939;
-    /* border: 1px dotted var(--border-color); */
 }
-
 
 .card{
     display: flex;
@@ -66,6 +68,17 @@
     flex-direction: column;
     justify-content: center;
     gap: 0.5rem;
+}
+
+.cardHeader p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:0.5rem;
+}
+
+.cardHeader p span {
+    font-family: var(--font-primary);
 }
 
 .second{
@@ -95,6 +108,20 @@
     letter-spacing: -1.5%;
     color: var(--secondary-text-color);
 }
-    
 
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        gap:0.5rem;
+    }
+    .cardHeader p {
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap:1rem;
+    }
 
+    .companyName {
+        font-size: 1.5rem;  
+    }
+}
