@@ -5,6 +5,7 @@ import { GoLinkExternal } from "react-icons/go";
 
 interface Certification {
   id: number;
+  img: string;
   title: string;
   name: string;
   description: string;
@@ -20,9 +21,12 @@ interface CertificationCardProps {
 const CertificationCard: React.FC<CertificationCardProps> = ({ certification }) => {
   return (
     <div className={styles.card} key={certification.id}>
-      <SlBadge size={60} color="#E72929"/>
+      {/* <SlBadge size={60} color="#E72929"/> */}
+      <div className={styles.cardImage}>
+      <img src={certification.img} alt='qwwq'/>
+      </div>
       <h1 className={styles.title}>{certification.title}</h1>
-      <h2 className={styles.name}>{certification.name}</h2>
+      {/* <h2 className={styles.name}>{certification.name}</h2> */}
       <p className={styles.description}>{certification.description}</p>
       <div className={styles.dates}>
         Certified: {certification.certifiedDate} – Valid until: {certification.validUntilDate}
