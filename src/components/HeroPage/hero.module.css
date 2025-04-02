@@ -101,6 +101,8 @@
     background-color: var(--secondary-color);
     max-width: 970px;
     max-height: 485px;
+    min-width: 600px;
+    min-height: 400px;
     /* overflow: hidden; */
 }
 .semicircle img {
@@ -168,6 +170,12 @@
     .semicircle .btn span {
         font-size: 1rem;  
         padding: 0.5rem 1.25rem 0.5rem 0rem;
+    }
+    .info{
+        display:none;
+    }
+    .rating{
+        display: none;
     }
 }
 
