@@ -63,6 +63,19 @@
     line-height: 100%;
     letter-spacing: -1.5%;
 }
+.rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.rating .star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
 
 .rating span {
     font-family: var(--font-primary);
@@ -80,7 +93,7 @@
     font-size: 1.25rem;
     line-height: 100%;
     letter-spacing: -1%;
-    text-align: center;
+    text-align: end;
     color: var(--secondary-text-color);
     align-self: flex-end;
 }
@@ -162,6 +175,9 @@
         font-size: 3rem;
     }
 
+    .semicircle {
+        width: 80%;
+    }
     .semicircle .btn p{
         padding: 0.5rem 1.25rem;
         font-size: 1rem;
@@ -177,6 +193,8 @@
     .rating{
         display: none;
     }
+
+
 }
 
 @media (max-height:800px) {

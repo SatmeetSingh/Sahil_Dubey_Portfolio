@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './card.module.css';
-import { SlBadge } from "react-icons/sl";
 import { GoLinkExternal } from "react-icons/go";
 
 interface Certification {
@@ -18,24 +17,25 @@ interface CertificationCardProps {
   certification: Certification;
 }
 
-const CertificationCard: React.FC<CertificationCardProps> = ({ certification }) => {
+const CertificationCard =  React.forwardRef<HTMLDivElement, CertificationCardProps>(
+  ({ certification }, ref)=> {
   return (
-    <div className={styles.card} key={certification.id}>
-      {/* <SlBadge size={60} color="#E72929"/> */}
+    <div className={styles.card} key={certification.id}  
+         ref={ref}>
       <div className={styles.cardImage}>
-      <img src={certification.img} alt='qwwq'/>
+      <img src={certification.img} alt={certification.title}/>
       </div>
       <h1 className={styles.title}>{certification.title}</h1>
-      {/* <h2 className={styles.name}>{certification.name}</h2> */}
+    
       <p className={styles.description}>{certification.description}</p>
       <div className={styles.dates}>
-        Certified: {certification.certifiedDate} – Valid until: {certification.validUntilDate}
+        Certified: {certification.certifiedDate} - Valid until: {certification.validUntilDate}
       </div>
       <div className={styles.issuer}>{certification.issuer}
       <button><GoLinkExternal size={20}/></button>
       </div>
     </div>
   );
-};
+});
 
 export default CertificationCard;

@@ -5,17 +5,17 @@
   justify-content: center;
   align-items: center;
   background-color: #80808024;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .intro {
-  padding-top: 3rem;
   font-family: var(--font-primary);
   font-weight: 600;
-  font-size: 3rem;
+  font-size: clamp(1.5rem , 6vw, 4rem);
   line-height: 100%;
   letter-spacing: -1.5%;
   /* color: var(--text-color); */
+  padding-block: 3rem;
 }
 
 .intro span {

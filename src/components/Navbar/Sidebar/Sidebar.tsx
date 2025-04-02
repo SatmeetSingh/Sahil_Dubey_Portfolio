@@ -3,6 +3,7 @@ import styles from "./sidebar.module.css";
 
 export default function Sidebar() {
   return (
+      <div className={styles.sidebar}>
          <div className={styles.page}>
             <Link to='home' 
                   spy={true} 
@@ -35,5 +36,14 @@ export default function Sidebar() {
                   duration={500} 
                   className={`${styles.link} ${styles.contact}`}>Contact</Link>
         </div>
+        <div className={styles.footerBottom}>
+        <p className={styles.footerCopyright}>Copyright© 2023 Sahil Dubey. All Rights Reserved.</p>
+        <div className={styles.footerLegal}>
+          <a href="/terms">User Terms & Conditions</a>
+          <span> | </span>
+          <a href="/privacy">Privacy Policy</a>
+        </div>
+      </div>
+      </div>
   )
 }

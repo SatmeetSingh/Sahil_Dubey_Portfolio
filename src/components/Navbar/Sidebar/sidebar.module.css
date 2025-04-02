@@ -1,4 +1,11 @@
-
+.sidebar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-block:3rem ;
+}
 .page {
     height: 100%;
     display: flex;
@@ -7,7 +14,6 @@
     align-items: center;
     gap:3rem;
 }
-
 
 .page .link{
     all:unset;
@@ -21,3 +27,25 @@
     color: var(--background-color);
 }
 
+.footerBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footerCopyright {
+    font-size: 0.8rem;
+    color: var(--background-color);
+    margin-bottom: 0.5rem;
+  }
+  
+  .footerLegal a {
+    font-size: 0.8rem;
+    color: #777777;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footerLegal span {
+    color: #777777;
+  }
