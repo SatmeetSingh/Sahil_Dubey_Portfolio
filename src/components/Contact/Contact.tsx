@@ -40,14 +40,6 @@ const Contact = () => {
         }
     });
 
-    //   gsap.to(formRef.current, {
-    //     y: 10,
-    //     duration: 2,
-    //     repeat: -1,
-    //     yoyo: true,
-    //     ease: "power1.inOut"
-    // });
-
   },[])
   return (
     <div className={styles.contactContainer}>

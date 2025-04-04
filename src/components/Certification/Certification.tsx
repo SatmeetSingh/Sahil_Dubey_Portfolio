@@ -15,7 +15,7 @@ const Certification: React.FC = () => {
       if (el) {
         gsap.fromTo(
           el,
-          { opacity: 0, y: 50, scale: 0.8 },
+          { opacity: 0, y: 60, scale: 0.8 },
           {
             opacity: 1,
             y: 0,
@@ -24,7 +24,7 @@ const Certification: React.FC = () => {
             ease: "power2.out",
             scrollTrigger: {
               trigger: el,
-              start: "top 85%",
+              start: "top 70%",
               toggleActions: "play none none reverse",
             },
           }

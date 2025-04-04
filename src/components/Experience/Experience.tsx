@@ -39,7 +39,7 @@ export default function Experience() {
           delay: index * 0.2,
           scrollTrigger: {
             trigger: item,
-            start: "top 90%",
+            start: "top 85%",
             toggleActions: "play none none reverse",
           },
         }

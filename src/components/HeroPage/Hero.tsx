@@ -12,7 +12,7 @@ export default function Hero() {
   useEffect(()=>{
     gsap.from(introRef.current, {
       opacity: 0,
-      y: 50,
+      y: 80,
       duration: 1,
       stagger: 0.1
     });
@@ -25,8 +25,8 @@ export default function Hero() {
 
     gsap.from(text1ref.current, {
       opacity: 0,
-      y: -50,
-      x:-50,
+      y: -80,
+      x:-80,
       duration: 1,
       stagger: 0.1
     });
@@ -40,8 +40,8 @@ export default function Hero() {
 
     gsap.from(text2ref.current, {
       opacity: 0,
-      y: -50,
-      x: 50,
+      y: -80,
+      x: 80,
       duration: 1,
       stagger: 0.1
     });
