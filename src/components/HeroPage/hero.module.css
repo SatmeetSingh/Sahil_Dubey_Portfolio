@@ -108,7 +108,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 70vw;  
-    height: 35vw;
+    height: 35vh;
     border-top-left-radius: 100% 200%;
     border-top-right-radius: 100% 200%;
     background-color: var(--secondary-color);
@@ -116,7 +116,6 @@
     max-height: 485px;
     min-width: 300px;
     min-height: 200px;
-    /* overflow: hidden; */
 }
 .semicircle img {
     position: absolute;
@@ -174,11 +173,6 @@
     .intro h4 {
         font-size: 3rem;
     }
-
-    .semicircle {
-        max-width: 80%;
-        width: 80%;
-    }
     .semicircle .btn p{
         padding: 0.5rem 1.25rem;
         font-size: 1rem;
@@ -200,8 +194,8 @@
 
 @media (max-height:800px) {
     .semicircle{
-        width: 45vw;  
-        height: 25vw;
+        width: 95vw;  
+        height: 30vh;
     }
 
     .semicircle img {

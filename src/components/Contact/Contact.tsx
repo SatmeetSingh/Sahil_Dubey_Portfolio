@@ -58,7 +58,7 @@ const Contact = () => {
           <MdEmail color='white' size={25}/>
             <h3>Email Address</h3>
             </div>
-            <p>no-reply@yourdomain.com / sales@yourdomain.com</p>
+            <p>sahildubey@gmail.com</p>
           </div>
           <div className={styles.infoDivider}></div>
 
@@ -67,7 +67,7 @@ const Contact = () => {
           <FaPhoneAlt color='white' size={25}/>
             <h3>Businnes Phone</h3>
             </div>
-            <p>773-222-4444 / 7722-545-8888</p>
+            <p>+91 9023444183</p>
           </div>
           <div className={styles.infoDivider}></div>
 
@@ -76,7 +76,7 @@ const Contact = () => {
           <FaLocationDot color='white' size={25}/>
             <h3>Address</h3>
             </div>
-            <p>1870 sed consequat risus, at vestibulum lacus.</p>
+            <p>Sunny enclave Mohali, Punjab</p>
           </div>
           
         </div>

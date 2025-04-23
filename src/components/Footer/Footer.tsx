@@ -81,9 +81,9 @@ const Footer = () => {
         <div className={styles.footerSection}>
           <h3 className={styles.footerSubheading}>Contact</h3>
           <ul className={styles.footerContact}>
-            <li>+91 7738443636</li>
-            <li>Jaycrea36@gmail.com</li>
-            <li>Portfolio-jerea.com</li>
+            <li>+91 9023444183</li>
+            <li>sahildubey@gmail.com</li>
+            <li>Sunny enclave Mohali, Punjab</li>
           </ul>
         </div>
 
