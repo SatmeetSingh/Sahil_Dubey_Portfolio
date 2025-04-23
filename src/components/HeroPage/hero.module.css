@@ -4,7 +4,7 @@
     position: relative;
     width: 100%;
     padding-inline:2rem ;
-    height: calc(100vh - 4rem);
+    height: 100vh;
     align-items: center;
     justify-content: flex-start;
 }
@@ -109,7 +109,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 70vw;  
-    height: 35vw;
+    height: 30vw;
     border-top-left-radius: 100% 200%;
     border-top-right-radius: 100% 200%;
     background-color: var(--secondary-color);
@@ -205,7 +205,7 @@
 @media (max-height:850px) {
     .semicircle{
         width: 80vw;  
-        height: 35vw;
+        height: 30vw;
     }
 
     .semicircle img {
