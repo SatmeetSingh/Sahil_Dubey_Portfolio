@@ -3,6 +3,7 @@
     flex-direction: column;
     position: relative;
     width: 100%;
+    padding-inline:2rem ;
     height: calc(100vh - 4rem);
     align-items: center;
     justify-content: flex-start;
@@ -108,7 +109,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 70vw;  
-    height: 35vh;
+    height: 35vw;
     border-top-left-radius: 100% 200%;
     border-top-right-radius: 100% 200%;
     background-color: var(--secondary-color);
@@ -168,6 +169,12 @@
                 padding 0.3s ease-in-out;
 }
 
+@media (max-width:500px){
+    .hero {
+        padding-inline:0.5rem ;
+    }
+}
+
 
 @media (max-width:768px) {
     .intro h4 {
@@ -188,8 +195,6 @@
     .rating{
         display: none;
     }
-
-
 }
 
 @media (max-height:800px) {

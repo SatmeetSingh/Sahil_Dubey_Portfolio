@@ -81,8 +81,7 @@ export default function Navbar() {
           <div ref={line2Ref} className={styles.linetwo}></div>   
         </div>
       </div>
-      <div className={isOpen ? styles.sidebar : styles.bar}><Sidebar />
-      </div>
+      <div className={`${styles.sidebar} ${isOpen ? styles.open : ''}`}><Sidebar /></div>
     </div>
   )
 }
