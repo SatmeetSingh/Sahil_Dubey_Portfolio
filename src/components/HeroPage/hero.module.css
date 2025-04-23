@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: center;
     gap: 0.25rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 .intro p{
@@ -123,6 +123,7 @@
     bottom: 0;
     width: 65%;  
     max-height: 550px;
+    min-height: 450px;
     height: auto; 
     object-fit: contain; 
     object-position: center bottom; 
@@ -170,16 +171,6 @@
                 padding 0.3s ease-in-out;
 }
 
-@media (max-width:500px){
-    .hero {
-        padding-inline:0.5rem ;
-    }
-
-    .semicircle{
-        width: 95vw;  
-        height: 30vh;
-    }
-}
 
 
 @media (max-width:768px) {
@@ -210,6 +201,23 @@
     }
 
     .semicircle img {
-        width: 72%;  
+        width: 80%;  
     }
 } 
+
+@media (max-width:500px){
+    .intro {
+        gap: 2rem;
+        margin-top: 12rem;
+    }
+    .hero {
+        padding-inline:0.5rem ;
+    }
+
+    .semicircle{
+        width: 95vw;  
+        height: 30vw;
+    }
+
+   
+}
