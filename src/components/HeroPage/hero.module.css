@@ -108,7 +108,7 @@
     bottom: 0%;
     left: 50%;
     transform: translateX(-50%);
-    width: 70vw;  
+    width: 60vw;  
     height: 30vw;
     border-top-left-radius: 100% 200%;
     border-top-right-radius: 100% 200%;
@@ -205,7 +205,7 @@
 
 @media (max-height:850px) {
     .semicircle{
-        width: 80vw;  
+        width: 60vw;  
         height: 30vw;
     }
 
