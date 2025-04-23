@@ -114,8 +114,8 @@
     background-color: var(--secondary-color);
     max-width: 970px;
     max-height: 485px;
-    min-width: 600px;
-    min-height: 400px;
+    min-width: 300px;
+    min-height: 200px;
     /* overflow: hidden; */
 }
 .semicircle img {
@@ -176,6 +176,7 @@
     }
 
     .semicircle {
+        max-width: 80%;
         width: 80%;
     }
     .semicircle .btn p{
