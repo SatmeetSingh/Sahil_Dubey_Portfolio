@@ -115,6 +115,7 @@
     .contactContainer {
       grid-template-columns: 1fr;
       gap: 2rem;
+      padding: 2rem;
     }
   
     .textColumns {
