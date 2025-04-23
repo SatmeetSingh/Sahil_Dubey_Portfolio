@@ -173,6 +173,11 @@
     .hero {
         padding-inline:0.5rem ;
     }
+
+    .semicircle{
+        width: 95vw;  
+        height: 30vh;
+    }
 }
 
 
@@ -197,10 +202,10 @@
     }
 }
 
-@media (max-height:800px) {
+@media (max-height:850px) {
     .semicircle{
-        width: 95vw;  
-        height: 30vh;
+        width: 80vw;  
+        height: 35vw;
     }
 
     .semicircle img {
