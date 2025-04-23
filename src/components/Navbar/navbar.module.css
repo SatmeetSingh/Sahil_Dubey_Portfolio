@@ -4,44 +4,123 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    top:0;
     position: sticky;
+    z-index: 1000;
+    box-shadow: rgba(235, 233, 233, 0.4) 0px 10px 15px -3px, rgba(238, 237, 237, 0.05) 0px 4px 6px -2px;
 }
 
 .nav{
-    width: 90%;
-    max-height: 86px;
+    width: 100%;
+    height: 85px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--background-color);
     color: var(--primary-color);
-    padding: 0px;
-    border-radius: 999px;
-    margin-top: 1rem;
+    padding-inline: 4rem;
 }
-
-.nav .link{
-    all:unset;
-    font-family: Urbanist;
-    font-weight: 700;
-    font-size: 1.25rem;
-    line-height: 100%;
-    letter-spacing: -1.5%;
-    padding: 0px;
-    cursor: pointer;
-}
-
 
 .nav p {
-    font-family: Urbanist;
+    font-family: var(--font-secondary);
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 100%;
     letter-spacing: -1.5%;
+    cursor: pointer;
 }
 
 .nav p span{
     background-color: var(--secondary-color);
     padding: 5px 15px;
     border-radius: 50%;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(1rem, 5vw, 2rem); 
+}
+
+
+.page .link{
+    all:unset;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+    padding: 0px;
+    cursor: pointer;
+    transition: color 0.3s ease; 
+}
+
+.page .contact {
+    padding: 1rem 1.25rem;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(0);
+}
+
+.page .contact:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    transform: translateY(-1px);
+}
+
+.burgur {
+    display: none;
+}
+
+.sidebar {
+    background-color: rgb(210, 208, 208);
+    position: fixed;
+    height: 100vh;
+    top :0;
+    right: 0;
+    width: 300px;
+    transition: right 0.3s ease-in-out;
+}
+
+.bar {
+    background-color: rgb(210, 208, 208);
+    height: 100vh;
+    position: fixed;
+    width: 300px;
+    right: -300px;
+    top :0;
+    transition: right 0.3s ease-in-out;
+}
+
+@media (max-width:768px){
+    .nav{
+        justify-content: space-between;
+        padding-inline: 3rem;
+    }
+
+    .page {
+        display: none;
+    }
+    
+    .burgur {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:0.5rem;
+        z-index: 10;
+    }
+    
+    .burgur .lineone {
+        border: 2px solid var(--primary-color);
+        width: 2.25rem;
+    }
+    
+    .burgur .linetwo {
+        border: 2px solid var(--primary-color);
+        width: 2.25rem;
+    }
+
+
 }

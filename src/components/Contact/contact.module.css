@@ -1,0 +1,124 @@
+.contactContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    max-width: 1200px;
+    width: 95%;
+    margin:30px auto;
+    padding: 4rem;
+    font-family: var(--font-primary);
+    background-color: var(--background-color);
+  }
+  
+  .textContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .sectionTitle {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #f5f1f1;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .column {
+    display: flex;
+  }
+  
+  .column p {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    color: #ededed;
+    margin: 0;
+  }
+  
+  .contactInfo {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .infoBlock h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+  }
+  .iconBox{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .infoDivider {
+    height: 1px;
+    background-color: #dddddd7b;
+    margin: 1rem 0;
+  }
+  .infoBlock p {
+    font-size: 0.8rem;
+    color: #ededed;
+    margin-left: 2rem;
+  }
+  
+  .contactForm {
+    background: #f8f8f8;
+    padding: 2rem;
+    border-radius: 0.5rem;
+  }
+  
+  .formTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #141414;
+    margin-bottom: 1.5rem;
+  }
+  
+  .formGroup {
+    margin-bottom: 1.25rem;
+  }
+  
+  .formGroup input,
+  .formGroup textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+  }
+  
+  .formGroup textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  .submitButton {
+    background: var(--secondary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submitButton:hover {
+    background: #555;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .contactContainer {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  
+    .textColumns {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }

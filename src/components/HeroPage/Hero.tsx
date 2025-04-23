@@ -1,27 +1,76 @@
 import styles from "./hero.module.css";
 import { FaQuoteLeft } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
-import { LuArrowUpRight } from "react-icons/lu";
+import { useEffect, useRef } from "react";
+import gsap from "gsap";
+
 export default function Hero() {
- 
+  const introRef = useRef<HTMLDivElement | null>(null);
+  const text1ref = useRef<HTMLDivElement | null>(null);
+  const text2ref = useRef<HTMLDivElement | null>(null);
+
+  useEffect(()=>{
+    gsap.from(introRef.current, {
+      opacity: 0,
+      y: 80,
+      duration: 1,
+      stagger: 0.1
+    });
+    gsap.to(introRef.current, {
+      opacity: 1,
+      y: 0,
+      duration: 1,
+      stagger: 0.1
+    });
+
+    gsap.from(text1ref.current, {
+      opacity: 0,
+      y: -80,
+      x:-80,
+      duration: 1,
+      stagger: 0.1
+    });
+    gsap.to(text1ref.current, {
+      opacity: 1,
+      y: 0,
+      x:0,
+      duration: 1,
+      stagger: 0.1
+    });
+
+    gsap.from(text2ref.current, {
+      opacity: 0,
+      y: -80,
+      x: 80,
+      duration: 1,
+      stagger: 0.1
+    });
+    gsap.to(text2ref.current, {
+      opacity: 1,
+      y: 0,
+      x:0,
+      duration: 1,
+      stagger: 0.3
+    });
+  },[])
   return (
     <div className={styles.hero}>
-      <div className={styles.intro}>
+      <div  ref={introRef} className={styles.intro}>
         <p>Hello!</p>
-        <h4>I’m <span>Sahil Dubey</span>,<br />DevOps And Cloud Security Expert </h4>
+        <h4>I’m <span>Sahil Dubey</span>,<br />DevOps And Cloud Security Expert</h4>
       </div>
       <div className={styles.next}>
-        <div className={styles.info}>
+        <div ref={text1ref} className={styles.info}>
           <FaQuoteLeft size={36}/>
-        <p>Sahil Dubey, As a successful Strategic Leadership, Information Security, Compliance, DevOps, Cloud Advnt, Datacenter Management with more than a decade's experience</p>
+        <p >Sahil Dubey, As a successful Strategic Leadership, Information Security, Compliance, DevOps, Cloud Advnt, Datacenter Management with more than a decade's experience</p>
         </div>
-        <div className={styles.rating}>
-          <div>
-            <FaStar size={32} color="red"/>
-            <FaStar size={32} color="red"/>
-            <FaStar size={32} color="red"/>
-            <FaStar size={32} color="red"/>
-            <FaStar size={32} color="red"/>
+        <div ref={text2ref} className={styles.rating}>
+          <div className={styles.star}>
+            <FaStar size={32} color="#F7B706"/>
+            <FaStar size={32} color="#F7B706"/>
+            <FaStar size={32} color="#F7B706"/>
+            <FaStar size={32} color="#F7B706"/>
+            <FaStar size={32} color="#F7B706"/>
           </div>
           <span>15 Years</span>
           <p>Experince</p>
@@ -30,8 +79,7 @@ export default function Hero() {
       <div className={styles.semicircle}>
         <img src="./images/SahilDUbey.png" alt="Sahil" />
         <div className={styles.btn}>
-            <p>Portfolio <span><LuArrowUpRight size={20}/>
-              </span>
+            <p>Portfolio 
               </p>
             <span>Hire me</span>
         </div>

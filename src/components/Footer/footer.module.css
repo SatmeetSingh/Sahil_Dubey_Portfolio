@@ -1,0 +1,152 @@
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footerTop {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footerSection {
+    margin-bottom: 1.5rem;
+  }
+  
+  .footerHeading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+  }
+  .logo{
+    margin: 25px auto;
+    background-color: black;
+  }
+.logo p {
+    font-family: var(--font-secondary);
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+}
+.logo span{
+    background-color: var(--secondary-color);
+    padding: 5px 15px;
+    border-radius: 50%;
+    /* font-family: 'Arial', sans-serif; */
+}
+.iconsContainer {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 24px;
+  color: #8a8484;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #efefef;
+}
+  
+  .footerSubheading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  .footerText {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .footerLinks {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .footerLinks li,
+  .footerContact li {
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .footerLinks a,
+  .footerLegal a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+  }
+  
+  .footerLinks a:hover,
+  .footerLegal a:hover {
+    color: #e6e6e6;
+  }
+  
+  .footerContact li {
+    font-size: 0.9rem;
+    color: #ffffff;
+    list-style: none;
+  }
+  
+  .footerInput {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border: 1px solid #dddddd;
+    border-radius: 0.25rem;
+  }
+  
+  .footerDivider {
+    height: 1px;
+    background-color: #dddddd;
+    margin: 1rem 0;
+  }
+  
+  .footerBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footerCopyright {
+    font-size: 0.8rem;
+    color: #777777;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footerLegal a {
+    font-size: 0.8rem;
+    color: #777777;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footerLegal span {
+    color: #777777;
+  }
+  
+  @media (min-width: 48rem) {
+    .footerBottom {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+    }
+    
+    .footerCopyright {
+      margin-bottom: 0;
+    }
+  }

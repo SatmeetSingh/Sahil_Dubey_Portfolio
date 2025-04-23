@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "img": "./images/CISA.png",
+      "title": "CISA - Certified Information Systems Auditor ",
+      "name": "Sahil Dubey",
+      "description": "Requirements include prerequisite professional experience, adherence to the ISACA Code of Professional Ethics and the CISA continuing professional education policy, and passage of the CISA exam.",
+      "certifiedDate": "Octuber 13, 2023",
+      "validUntilDate": "January 31, 2027",
+      "issuer": "ISACA hereby-certifies"
+    },
+    {
+      "id": 2,
+      "img": "./images/AWS.png",
+      "title": "AWS Certified Solutions Architect - Professional",
+      "name": "Sahil Dubey",
+      "description": "has successfully completed the AWS Certification requirements and has achieved their AWS Certified Solutions Architect - Professional",
+      "certifiedDate": "Octuber 05, 2019",
+      "validUntilDate": "Octuber 05, 2022",
+      "issuer": "AWS Certified"
+    },
+    {
+      "id": 3,
+      "img": "./images/AWS2.png",
+      "title": "AWS Certified Solutions Architect - Associate",
+      "name": "Sahil Dubey",
+      "description": "has successfully completed the AWS Certification requirements and has achieved their AWS Certified Solutions Architect - Associate",
+      "certifiedDate": "June 06, 2017",
+      "validUntilDate": "June 06, 2019",
+      "issuer": "AWS Certified"
+    },
+    {
+      "id": 4,
+      "img": "./images/MSCERTIFIED.png",
+      "title": "Microsoft Certificate of Excellence",
+      "name": "Sahil Dubey",
+      "description": "Has sucosefully completed the requirements to be recognized Certified Technology Specialist Windows Server 2008 Active Dectory Configuration.",
+      "certifiedDate": "January 15, 2020",
+      "validUntilDate": "January 15, 2021",
+      "issuer": "Microsoft CERTIFIED"
+    },
+    {
+      "id": 5,
+      "img": "./images/MSEXPERT.jpg",
+      "title": "Microsoft Certificate of Excellence",
+      "name": "Sahil Dubey",
+      "description": "Has successfully completed the requirements to be recognized as a Microsoft Certified Technology Specialist (MCTS)",
+      "certifiedDate": "June 09, 2012",
+      "validUntilDate": "June 09, 2023",
+      "issuer": "Microsoft CERTIFIED"
+    }
+  ]

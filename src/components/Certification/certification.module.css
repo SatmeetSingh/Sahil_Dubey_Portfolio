@@ -1,0 +1,38 @@
+/* Add this to card.module.css or create a new CSS module */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #80808024;
+  margin-top: 5rem;
+}
+
+.intro {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: clamp(1.5rem , 6vw, 4rem);
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  /* color: var(--text-color); */
+  padding-block: 3rem;
+}
+
+.intro span {
+  color: var(--card-color);
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.certificationsContainer {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
